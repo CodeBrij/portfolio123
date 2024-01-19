@@ -1,0 +1,217 @@
+.gradient-background {
+    background: linear-gradient(300deg, rgb(0, 136, 255), #00ffa2, rgb(0, 2, 128));
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+    margin: 0;
+    font-family: 'Fira Sans';
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.nav-container {
+    width: 80%;
+    border: 1px solid violet;
+    display: flex;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: auto;
+    position: relative;
+    top: 70px;
+    background: white;
+    border-radius: 100px;
+    flex-wrap: wrap;
+}
+.nav-container>ul{
+    font-size: large;
+    font-family: 'Fira Sans';
+    width: 100%;
+    list-style: none;
+    display: inline-flex;
+    flex: 1;
+    justify-content: right;
+    align-items: center;
+    justify-content: space-around;
+    text-transform: uppercase;
+    flex-wrap: wrap;
+}
+
+a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  transition:transform 0.5s;
+}
+
+li:hover {
+  transform: translateY(-3px);
+}
+
+a:hover {
+  color: #ff4d00;
+}
+
+nav-bar>h1 {
+    font-family:'Sevillana', cursive;
+}
+
+.home-container {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  background: #343434;
+  color: whitesmoke;
+  position: relative;
+  top: 100px;
+  border-radius: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#profileimg {
+  border-radius: 50%;
+  height: 200px;
+  padding: 50px 100px 50px 100px;
+}
+
+.heading {
+  font-family: 'Fira Sans';
+}
+
+.about {
+  width: 80%;
+  background: white;
+  color: black;
+  position: relative;
+  text-align: center;
+  font-family: 'Fira Sans';
+  margin: auto;
+  top: 100px;
+  border-radius: 10px;
+}
+
+.about>h1 {
+  font-size: xx-large;
+  margin: 5px;
+  padding: 40px 0 10px 0;
+}
+
+.about>p {
+  width: 50%;
+  margin: auto;
+  padding: 0 0 40px 0;
+}
+
+.skills {
+  position: relative;
+  top: 100px;
+  width: 80%;
+  margin: auto;
+  background: #343434;
+  border-radius: 10px;
+  color: white;
+}
+
+.skillcontainer {
+  display: flex;
+  justify-items: center;
+  justify-content: space-evenly;
+  margin: auto;
+  flex-wrap: wrap;
+  padding-bottom: 20px;
+}
+
+.cards {
+  width: 23%;
+  height: 320px;
+  cursor: pointer;
+  background: white;
+  text-align: center;
+  border-radius: 10px;
+  color: black;
+  transition: transform 0.5s;
+}
+
+.cardimg {
+  height: 100px;
+  padding-top: 50px;
+  border-radius: 70%;
+}
+
+.skills>h1 {
+  font-size: xx-large;
+  margin: 5px;
+  padding: 30px 0 20px 0;
+  text-align: center;
+}
+
+.cardcontent {
+  width: 60%;
+  padding-left: 20%;
+}
+
+.cards:hover {
+  transform: scaleY(-10px);
+  box-shadow: 10px 10px 3px #000000;
+}
+
+.contact {
+  position: relative;
+  top: 110px;
+  width: 80%;
+  margin: auto;
+  background: white;
+  border-radius: 10px;
+  color: black;
+  text-align: center;
+}
+
+.contactcontainer {
+  width: 100%;
+}
+
+.contactcontainer ul{
+  font-size: large;
+  font-family: 'Fira Sans';
+  width: 100%;
+  list-style: none;
+  display: inline-flex;
+  flex: 1;
+  justify-content: right;
+  align-items: center;
+  justify-content: space-around;
+  text-transform: uppercase;
+  flex-wrap: wrap;
+  padding: 20px 0;
+}
+
+.logo {
+  height: 15px;
+}
+
+.contact>h1 {
+  font-size: xx-large;
+  padding: 0 0 20px 0;
+}
+
+hr {
+  width: 30%;
+}
+
+.container {
+  width: 100%;
+  position: relative;
+  top: 110px;
+  height: fit-content;
+  background: #353535;
+  text-align: center;
+  padding: 20px;
+}
